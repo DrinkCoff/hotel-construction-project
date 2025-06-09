@@ -1,0 +1,57 @@
+---
+---
+@import "minima"; // Imports the default Minima styles
+
+// Your custom styles go below this line
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+.site-header {
+  background-color: #2c3e50; /* Dark blue/grey for header */
+  color: #ecf0f1; /* Light text */
+  padding: 1.5em 0;
+  text-align: center;
+}
+
+.site-title {
+  color: #ecf0f1;
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+nav {
+  background-color: #34495e; /* Slightly darker than header */
+  padding: 0.8em 0;
+  text-align: center;
+  a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 0 15px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.wrapper {
+  max-width: 960px; /* Constrain content width */
+  margin: 20px auto; /* Center content with some margin */
+  padding: 0 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-header {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+  color: #2980b9; /* A nice blue for headings */
+}
